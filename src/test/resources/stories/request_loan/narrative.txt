@@ -1,0 +1,6 @@
+Request a loan
+
+Narrative:
+In order to request a loan
+As a customer
+I must provide an account with sufficient funds and a sufficient downpayment amount

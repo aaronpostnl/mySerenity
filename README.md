@@ -4,6 +4,7 @@ Casus voor het testen van webservice middels het BDD framework JBehave
 Dit project is een eerste opzet voor het testen van webservices waarbij gebruik gemaakt wordt van het BDD framework JBehave.
 
 Het project maakt gebruik van een SOAPUI project welke via de SOAPUI API wordt aangeroepen om de project properties van waarden te voorzien
+De waarden worden opgehaald uit de tabel in de storie. Voor elke regel in deze tabel wordt er een test uitgevoerd.
 
 Het voorbeeld toont hoe middels geparamteriseerde JBehave stories testen uitgevoerd kunnen worden. 
 De serenity component zorgt voor de testrapportage. In de rapportage wordt de link tussen de requirements (storie / scenario) en de testgevallen weergegeven.

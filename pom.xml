@@ -68,11 +68,6 @@
                     <includes>
                         <include>**/features/**/When*.java</include>
                     </includes>
-                    <systemProperties>
-                        <webdriver.driver>${webdriver.driver}</webdriver.driver>
-                        <surefire.rerunFailingTestsCount>${surefire.rerunFailingTestsCount}</surefire.rerunFailingTestsCount>
-                        <surefire.rerunFailingTestsCount>${surefire.rerunFailingTestsCount}</surefire.rerunFailingTestsCount>
-                    </systemProperties>
                 </configuration>
                 <executions>
                     <execution>

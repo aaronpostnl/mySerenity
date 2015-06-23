@@ -15,3 +15,4 @@ Examples:
 | fromAccount | balance   | loanAmount | downPayment | approved |
 | 12345       | 0         | 10000      | 10          | false    |
 | 12345       | 0         | 100        | 10          | true     |
+| 12345       | 0         | 100        | 10          | false    |

@@ -1,0 +1,6 @@
+Open a new account
+
+Narrative:
+As a customer
+I want to open a new account
+So that I can transfer money to the new account

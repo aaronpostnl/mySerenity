@@ -14,6 +14,7 @@ import java.util.List;
 /**
  * Created by Oelan on 8-6-2015.
  */
+
 public class request_loan_story {
 
     String fromAccount;
@@ -45,11 +46,11 @@ public class request_loan_story {
 
         this.approved = approved;
         Properties.add("approved=" + approved);
-
+        RunSoapui();
 
     }
     @Step
-    public void RunSoapui(String keyword) throws Exception {
+    public void RunSoapui() throws Exception {
         SoapUITestCaseRunner runner = new SoapUITestCaseRunner();
         runner.setProjectFile("SoapuiProject/Parabank-soapui-project.xml");
         String[] ProjectProperties = Properties.toArray(new String[Properties.size()]);

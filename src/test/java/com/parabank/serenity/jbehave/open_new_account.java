@@ -1,6 +1,5 @@
 package com.parabank.serenity.jbehave;
 
-import net.thucydides.core.annotations.Step;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
@@ -15,17 +14,13 @@ public class open_new_account {
         //do some login
     }
 
-    @When("I open a new savings account with the minimum deposit")
+    @When("I open a new <accountType> with the minimum <deposit>")
     public void OpenAccount (){
-        //open account of type with a deposit from account
+
     }
-    @Then("A new savings account is created")
+    @Then("A new account of <accountType> is <created>")
     public void CheckAccountCreated(){
-        //check account is created with correct type and balance
-    }
-    @Step
-    public void implementSomeSteps(){
-        //implement some steps
+
     }
 
 }
